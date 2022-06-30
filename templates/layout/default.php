@@ -14,7 +14,7 @@
  * @var \App\View\AppView $this
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'Patient Care management system';
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,8 +39,9 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <nav class="top-nav">
 
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
+            <a href="<?= $this->Url->build('/') ?>"><span>Patient</span>Care</a>
         </div>
+        <?php   if($loggedIn): ?>
         <div class="top-nav-links">       
                 <?= $this->Html->link(
                 'Patients',
@@ -75,6 +76,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                            
         </div>
+    <?php endif; ?>
     </nav>
     
     <main class="main">
