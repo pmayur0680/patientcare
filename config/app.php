@@ -5,6 +5,7 @@ use Cake\Database\Connection;
 use Cake\Database\Driver\Mysql;
 use Cake\Log\Engine\FileLog;
 use Cake\Mailer\Transport\MailTransport;
+use Cake\Core\Configure;
 
 return [
     /*
@@ -17,6 +18,7 @@ return [
      * true: Errors and warnings shown.
      */
     'debug' => filter_var(env('DEBUG', false), FILTER_VALIDATE_BOOLEAN),
+    Configure::write('debug', 0),
 
     /*
      * Configure basic information about the application.
