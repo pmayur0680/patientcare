@@ -1,53 +1,52 @@
-# CakePHP Application Skeleton
+# Patient Care Management Systems
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 4.x.
+## Description
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+Patient Care Management Systems using CakePHP to let authenticated client add and manage users, doctors, insurance carriers, appointments, and invoices.
+
+## Table of Contents
+
+-   [Installation](#installation)
+-   [Usage](#usage)
+-   [License](#license)
+-   [Contributing](#contributing)
+-   [Questions](#questions)
 
 ## Installation
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+You can follow the steps below to install the application on your system.
 
-If Composer is installed globally, run
+1. Clone the repo
+   `git@github.com:pmayur0680/patientcare.git`
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+This application uses CakePHP 4.0 and MySQL.
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+## Usage
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+Code Repo: https://github.com/pmayur0680/patientcare
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+### Screenshots
 
-```bash
-bin/cake server -p 8765
-```
+![Alt text](https://user-images.githubusercontent.com/101486770/176729131-af5e4d60-8863-48b8-8e0c-9a8ba23afe7c.png?raw=true "Patients") <br>
 
-Then visit `http://localhost:8765` to see the welcome page.
+![Alt text](https://user-images.githubusercontent.com/101486770/176729267-2010d374-ac65-498a-b642-622abcf6db59.png?raw=true "Doctors") <br>
 
-## Update
+![Alt text](https://user-images.githubusercontent.com/101486770/176729349-8c624996-940b-4aef-a62b-426d7931deb4.png?raw=true "Appointments") <br>
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
+![Alt text](https://user-images.githubusercontent.com/101486770/176729486-ec2e569c-1f04-4b7a-b07d-1bec8d2fa58d.png?raw=true "Carriers") <br>
 
-## Configuration
+![Alt text](https://user-images.githubusercontent.com/101486770/176729587-26ff3340-2b2d-4475-9bde-b8ffaf2bf83a.png?raw=true "Invoices") <br>
 
-Read and edit the environment specific `config/app_local.php` and setup the 
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
+## License
 
-## Layout
+Distributed under the MIT License.
 
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
+## Contributing
+
+Please feel free to contribute your own ideas.
+
+## Questions
+
+If you have any questions about this projects, please contact me directly at pmayur0680@gmail.com. You can view more of my projects at https://github.com/pmayur0680.
