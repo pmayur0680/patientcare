@@ -25,7 +25,6 @@ use Cake\Core\Configure;
 // Set the fullBaseUrl to allow URLs to be generated in shell tasks.
 // This is useful when sending email from shells.
 //Configure::write('App.fullBaseUrl', php_uname('n'));
-Configure::write('debug', false);
 // Set logs to different files so they don't have permission conflicts.
 if (Configure::check('Log.debug')) {
     Configure::write('Log.debug.file', 'cli-debug');
