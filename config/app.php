@@ -5,6 +5,9 @@ use Cake\Database\Connection;
 use Cake\Database\Driver\Mysql;
 use Cake\Log\Engine\FileLog;
 use Cake\Mailer\Transport\MailTransport;
+use Cake\Core\Configure;
+
+Configure::write('debug', 2);
 
 return [
     /*
